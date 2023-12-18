@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online pizza shop</title>
+    <!--Custom css link-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--boxicons style cdn-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--header component-->
+    <header class="nav">
+      <!--Nav-->
+      <div class="nav_container">
+        <ul class="nav_links">
+          <li>
+            <strong
+              ><i class="bx bxs-pizza" id="pizza-icon"></i> The Pizza
+              shop</strong
+            >
+          </li>
+          <li>
+            <i class="bx bx-cart-alt" id="cart-icon"></i>
+            <span class="pizza_count">0</span>
+          </li>
+        </ul>
+        <!--Cart-->
+        <!--the cart is hidden until the cart icon is clicked-->
+        <div class="cart">
+          <h2 class="cart-title">Items in Cart</h2>
+          <!--Cart content-->
+          <div class="cart-content">
+            <div class="cart-box"></div>
+          </div>
+          <!--Total-->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">R 0,00</div>
+          </div>
+          <!--Buy button-->
+          <button type="button" class="btn-buy">Pay now</button>
+          <!--Cart close-->
+          <i class="bx bx-x-circle" id="close-cart"></i>
+        </div>
+      </div>
+    </header>
+    <!--Products-->
+    <div class="product-container">
+      <div class="products">
+        <div class="product">
+          <img src="images/bbq_chicken.jpeg" class="p-pic" alt="p-pic" />
+          <div class="details">
+            <p class="p-title">BBQ Chicken - Large</p>
+            <p class="p-price">R 85,00</p>
+          </div>
+          <div class="btn-box">
+            <button class="add-cart">Add to cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/cheesesteak_pizza.jpeg" class="p-pic" alt="p-pic" />
+          <div class="details">
+            <p class="p-title">Cheesesteak - Large</p>
+            <p class="p-price">R 95,00</p>
+          </div>
+          <div class="btn-box">
+            <button class="add-cart">Add to cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/chicken_mushroom.jpeg" class="p-pic" alt="p-pic" />
+          <div class="details">
+            <p class="p-title">Chicken Mushroom - Large</p>
+            <p class="p-price">R 100,00</p>
+          </div>
+          <div class="btn-box">
+            <button class="add-cart">Add to cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/margherita.jpeg" class="p-pic" alt="p-pic" />
+          <div class="details">
+            <p class="p-title">Margherita - Large</p>
+            <p class="p-price">R 80,00</p>
+          </div>
+          <div class="btn-box">
+            <button class="add-cart">Add to cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/pepperoni.jpeg" class="p-pic" alt="p-pic" />
+          <div class="details">
+            <p class="p-title">Pepperoni - Large</p>
+            <p class="p-price">R 92,00</p>
+          </div>
+          <div class="btn-box">
+            <button class="add-cart">Add to cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/spicy_chicken.jpeg" class="p-pic" alt="p-pic" />
+          <div class="details">
+            <p class="p-title">Spicy Chicken - Large</p>
+            <p class="p-price">R 88,00</p>
+          </div>
+          <div class="btn-box">
+            <button class="add-cart">Add to cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/vegi_pizza.jpeg" class="p-pic" alt="p-pic" />
+          <div class="details">
+            <p class="p-title">Vegetarian 1 - Large</p>
+            <p class="p-price">R 79,00</p>
+          </div>
+          <div class="btn-box">
+            <button class="add-cart">Add to cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/vegi_pizza2.jpeg" class="p-pic" alt="p-pic" />
+          <div class="details">
+            <p class="p-title">Vegetarian 2 - Large</p>
+            <p class="p-price">R 84,00</p>
+          </div>
+          <div class="btn-box">
+            <button class="add-cart">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="add-box">
+      <div class="add-msg">Added to cart 🎉</div>
+    </div>
+    <!--JS link-->
+    <script src="script.js"></script>
+  </body>
+</html>
