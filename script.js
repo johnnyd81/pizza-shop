@@ -1,4 +1,4 @@
-//DOM variables
+//required DOM variables
 let cartIcon = document.querySelector("#cart-icon");
 let cart = document.querySelector(".cart");
 let close = document.querySelector("#close-cart");
