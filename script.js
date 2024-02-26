@@ -7,7 +7,7 @@ let productContainer = document.querySelector(".product-container");
 let totalCartPrice = document.querySelector(".total-price");
 let addMessage = document.querySelector(".add-msg");
 
-//opens the cart component when the cart navigation icon is clicked
+//opens the hidden cart component when the cart navigation icon is clicked
 cartIcon.onclick = function () {
   cart.classList.add("active");
   //two functions below update the cart items and total price
