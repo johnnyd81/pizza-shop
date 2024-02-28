@@ -1,4 +1,4 @@
-//DOM variables
+//required DOM variables
 let cartIcon = document.querySelector("#cart-icon");
 let cart = document.querySelector(".cart");
 let close = document.querySelector("#close-cart");
@@ -7,7 +7,7 @@ let productContainer = document.querySelector(".product-container");
 let totalCartPrice = document.querySelector(".total-price");
 let addMessage = document.querySelector(".add-msg");
 
-//opens the cart when the cart icon is clicked
+//opens the hidden cart component when the cart navigation icon is clicked
 cartIcon.onclick = function () {
   cart.classList.add("active");
   //two functions below update the cart items and total price
@@ -15,7 +15,7 @@ cartIcon.onclick = function () {
   displayCartPrice();
 };
 
-//closes the cart
+//closes the cart component
 close.onclick = function () {
   cart.classList.remove("active");
 };
@@ -91,8 +91,8 @@ let pizzas = [
   },
 ];
 
-//gets all the add-cart buttons in the DOM
-//a nodelist is returned that contains all the buttons
+//gets all the add-cart buttons in the DOM and stores it in a nodelist
+//a nodelist is similar to an array
 let addCartBtns = document.querySelectorAll(".add-cart");
 
 //by looping over the nodelist each button gets a click handler that calls two functions

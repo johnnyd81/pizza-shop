@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); /*Custom imported font*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); /*Custom imported google font*/
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@
   scroll-behavior: smooth;
   background: var(--bg-color);
 }
-
+//css variables
 :root {
   --bg-color: rgb(240, 217, 219);
   --main-color: rgb(150, 158, 74);
@@ -26,7 +26,7 @@ body {
   margin-bottom: 10px;
 }
 
-/*-------Header----------*/
+/*-------Header component----------*/
 
 .nav_container {
   position: fixed;
@@ -64,7 +64,7 @@ a {
   text-shadow: 1px 1px 2px rgb(219, 5, 5);
 }
 
-/*--------Cart---------------*/
+/*-----------Cart---------------*/
 
 .cart {
   position: absolute;
