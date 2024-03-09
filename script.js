@@ -31,7 +31,7 @@ function addMsg() {
   }, 3000);
 }
 
-//array that contains details of each pizza
+//array that contains the details of each pizza used in the app
 let pizzas = [
   {
     title: "Bbq chicken",
