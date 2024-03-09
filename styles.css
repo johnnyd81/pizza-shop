@@ -69,7 +69,7 @@ a {
 .cart {
   position: absolute;
   top: 0;
-  right: -100%; /*puts the cart out of sight of the viewport */
+  right: -100%; /*puts the cart out of view of the viewport */
   width: 360px;
   min-height: 100vh;
   padding: 20px;
