@@ -92,7 +92,7 @@ let pizzas = [
 ];
 
 //gets all the add-cart buttons in the DOM and stores it in a nodelist
-//a nodelist is similar to an array
+//a nodelist is similar to an array as it is iterable
 let addCartBtns = document.querySelectorAll(".add-cart");
 
 //by looping over the nodelist each button gets a click handler that calls two functions
