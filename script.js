@@ -15,7 +15,7 @@ cartIcon.onclick = function () {
   displayCartPrice();
 };
 
-//closes the cart component
+// closes the cart component when clicked
 close.onclick = function () {
   cart.classList.remove("active");
 };
