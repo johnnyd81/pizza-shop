@@ -67,7 +67,7 @@ a {
 /*-----------Cart---------------*/
 
 .cart {
-  position: absolute;
+  position: absolute; /*removes cart from the normal flow of the webpage to better align it*/
   top: 0;
   right: -100%; /*puts the cart out of view of the viewport */
   width: 360px;
