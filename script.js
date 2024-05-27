@@ -20,6 +20,7 @@ close.onclick = function () {
   cart.classList.remove("active");
 };
 
+//when the user clicks anywhere on the productContainer the cart will close
 productContainer.onclick = function () {
   cart.classList.remove("active");
 };
