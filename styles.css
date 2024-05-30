@@ -80,7 +80,7 @@ a {
 }
 
 .cart.active {
-  /* adds the active class when the cart icon is clicked and reveals the cart */
+  /* adds the active class when the cart icon is clicked and reveals the cart onscreen */
   right: 0;
 }
 
