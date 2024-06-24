@@ -8,7 +8,7 @@ let totalCartPrice = document.querySelector(".total-price");
 let addMessage = document.querySelector(".add-msg");
 
 //opens the hidden cart component when the cart navigation icon is clicked
-//items can be removed from the cart using this component
+//items can be removed from the cart using this component and are updated in real time
 cartIcon.onclick = function () {
   cart.classList.add("active");
   //two functions below update the cart items and total price
