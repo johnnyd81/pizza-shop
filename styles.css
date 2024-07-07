@@ -35,7 +35,7 @@ body {
   width: 100%;
 }
 
-//styling of navigation links are done using flexbox
+/*styling of navigation links are done using flexbox*/
 .nav_links {
   display: flex;
   justify-content: space-around;
