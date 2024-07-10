@@ -114,10 +114,13 @@ for (let i = 0; i < addCartBtns.length; i++) {
 function cartNumbers(product) {
   let cartNumbers = sessionStorage.getItem("cartNumbers");
   cartNumbers = parseInt(cartNumbers);
-
+  
+//if cartNumbers has a value add 1 to it's value
   if (cartNumbers) {
     sessionStorage.setItem("cartNumbers", cartNumbers + 1);
     document.querySelector(".pizza_count").textContent = cartNumbers + 1;
+    
+    //if cartNumbers doesn't have a value then make it's value 1
   } else {
     sessionStorage.setItem("cartNumbers", 1);
     document.querySelector(".pizza_count").textContent = 1;
