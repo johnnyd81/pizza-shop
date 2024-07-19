@@ -110,7 +110,7 @@ for (let i = 0; i < addCartBtns.length; i++) {
 }
 
 //cartNumbers keeps track of the amount of items in the cart
-//the amount is stored in sessionStorage
+//the amount is stored in the browser's sessionStorage 
 function cartNumbers(product) {
   let cartNumbers = sessionStorage.getItem("cartNumbers");
   cartNumbers = parseInt(cartNumbers);
