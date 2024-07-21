@@ -163,7 +163,7 @@ function setItem(product) {
     };
   }
 
-  //stores the cartItems in sessionStorage
+  //stores the cartItems in sessionStorage in a stringified format
   sessionStorage.setItem("cartItems", JSON.stringify(cartItems));
 }
 
