@@ -102,6 +102,7 @@ a {
   flex-wrap: wrap;
 }
 
+/* styles each individual cart item */
 .cart-item {
   width: 350px;
   padding: 5px;
