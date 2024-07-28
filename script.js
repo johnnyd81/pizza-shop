@@ -220,6 +220,7 @@ function displayCart() {
   }
 }
 
+//deletes item from the cart
 cartContainer.addEventListener("click", function (e) {
   if (e.target.classList.contains("delete")) {
     adjustValues(e.target.classList[3], e.target.classList[2]);
