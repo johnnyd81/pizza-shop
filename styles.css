@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); /*Custom imported google font to style the text*/
 
-/* universal style declarations */
+/* universal style declarations by using the asterisk symbol as a selector */
 * {
   margin: 0;
   padding: 0;
