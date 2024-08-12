@@ -230,6 +230,7 @@ cartContainer.addEventListener("click", function (e) {
   }
 });
 
+//adjust values in the cart i.e. amount of items
 function adjustValues(key, action) {
   let cartItems = JSON.parse(sessionStorage.getItem("cartItems"));
   let cartNumbers = sessionStorage.getItem("cartNumbers");
