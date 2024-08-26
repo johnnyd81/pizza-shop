@@ -116,7 +116,7 @@ function cartNumbers(product) {
   let cartNumbers = sessionStorage.getItem("cartNumbers");
   cartNumbers = parseInt(cartNumbers);
   
-//if cartNumbers has a value add 1 to it's value
+//if cartNumbers has a value add 1 to the existing value
   if (cartNumbers) {
     sessionStorage.setItem("cartNumbers", cartNumbers + 1);
     document.querySelector(".pizza_count").textContent = cartNumbers + 1;
