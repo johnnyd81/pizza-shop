@@ -18,7 +18,7 @@
   --text-color: rgb(6, 6, 56);
 }
 
-/* img should take full width of the container */
+/* img should take full width of it's container */
 img {
   width: 100%;
 }
