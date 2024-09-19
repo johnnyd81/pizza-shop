@@ -27,7 +27,7 @@ productContainer.onclick = function () {
   cart.classList.remove("active");
 };
 
-//the function below shows a message and removes it after 3 seconds
+//the function below shows a message and removes it after 3 seconds using the setTimeout method
 function addMsg() {
   addMessage.classList.add("active");
   setTimeout(() => {
