@@ -35,7 +35,7 @@ function addMsg() {
   }, 3000);
 }
 
-//array that contains the details of each pizza used in the application stored as an object literal
+// array that contains the details of each pizza used in the application stored as an object literal
 let pizzas = [
   {
     title: "Bbq chicken",
@@ -96,7 +96,7 @@ let pizzas = [
 ];
 
 //gets all the add-cart buttons in the DOM and stores it in a nodelist i.e. array-like data structure
-//a nodelist is similar to an array as it is iterable
+//a nodelist is similar to an array as it is iterable using a for loop
 let addCartBtns = document.querySelectorAll(".add-cart");
 
 //by looping over the nodelist each button gets a click handler that calls two functions
