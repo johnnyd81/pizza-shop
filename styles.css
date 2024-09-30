@@ -18,7 +18,7 @@
   --text-color: rgb(6, 6, 56);
 }
 
-/* img should take full width of it's container */
+/* img should take up the full width of it's container */
 img {
   width: 100%;
 }
@@ -56,7 +56,7 @@ a {
   font-size: 1.3rem;
 }
 
-/* Styles the cart icon */
+/* Styles the cart icon that the user can click to view the items in the cart */
 #cart-icon {
   cursor: pointer;
   font-size: 1.5rem;
