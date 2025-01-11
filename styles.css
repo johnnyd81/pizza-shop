@@ -63,6 +63,7 @@ a {
   background-color: var(--main-color);
 }
 
+/* style the navbar pizza icon */
 #pizza-icon {
   color: orange;
   text-shadow: 1px 1px 2px rgb(219, 5, 5);
