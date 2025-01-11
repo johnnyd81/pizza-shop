@@ -168,6 +168,7 @@ function setItem(product) {
   sessionStorage.setItem("cartItems", JSON.stringify(cartItems));
 }
 
+// display the cartitem price if the user has added any pizzas to the cart
 function displayCartPrice() {
   let cartCost = sessionStorage.getItem("cartCost");
   cartCost = parseInt(cartCost);
