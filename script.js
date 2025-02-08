@@ -35,7 +35,7 @@ function addMsg() {
   }, 3000);
 }
 
-// array that contains the details of each pizza used in the application stored as an object literal
+// array that contains the details of each pizza available in the application stored as an object literal
 let pizzas = [
   {
     title: "Bbq chicken",
