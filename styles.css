@@ -56,7 +56,7 @@ a {
   font-size: 1.3rem;
 }
 
-/* Styles the cart icon that the user can click to view the items in the cart */
+/* Styles the cart icon that the user can click to view the items present in the cart */
 #cart-icon {
   cursor: pointer;
   font-size: 1.5rem;
