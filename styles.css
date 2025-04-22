@@ -11,7 +11,7 @@
   scroll-behavior: smooth;
   background: var(--bg-color);
 }
-/* css variables used in the application */
+/* css variables that is used in the application */
 :root {
   --bg-color: rgb(240, 217, 219);
   --main-color: rgb(150, 158, 74);
