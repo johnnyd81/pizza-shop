@@ -16,7 +16,7 @@ cartIcon.onclick = function () {
   displayCartPrice();
 };
 
-// closes the cart component when clicked by the user
+// closes the cart component when it is clicked by the user
 close.onclick = function () {
   //the classList.remove method removes the "active" class from the cart component thereby closing the cart
   cart.classList.remove("active");
